@@ -7,9 +7,7 @@ function menu(){
     return parseFloat(rl.question('> '));
 }
 
-var opcion = menu();
-
-while(opcion!=3){
+while(menu()!=3){
     if (opcion==1){
       var C = parseFloat(rl.question('Introduce los grados Celsius: '));
       var aux = (C * 9/5) +32;
@@ -23,5 +21,4 @@ while(opcion!=3){
     else{
         console.log('Opción incorrecta.')
     }
-    opcion = menu();
 }
