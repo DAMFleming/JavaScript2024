@@ -1,0 +1,18 @@
+div.crono {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+div.crono p {
+    border: 2px solid black;
+    margin-bottom: 1em;
+    padding: .5em;
+    font-size: 3em;
+}
+
+button {
+    font-size: 1.5em;
+}
